@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+        <property name="url" value=""/>
+        <property name="username" value=""/>
+        <property name="password" value=""/>
+
+        <!--Statement默认超时时间，单位：秒-->
+        <property name="defaultQueryTimeout" value="3"/>
+        <!--默认是否自动提交事务，默认为true-->
+        <property name="defaultAutoCommit" value="false"/>
+        <!--数据库连接属性，不同数据库配置不一样-->
+        <property name="connectionProperties" value="connectTimeout=2000; socketTimeout=2000"/>
+
+        <!--连接池队列类型默认为LIFO，false表示FIFO-->
+        <property name="lifo" value="false"/>
+        <property name="initialSize" value="80"/>
+        <property name="minIdle" value="80"/>
+        <property name="maxIdle" value="80"/>
+        <property name="maxTotal" value="80"/>
+
+        <!--等待获取连接池时间，500ms-->
+        <property name="maxWaitMillis" value="500"/>
+
+        <!--从池中获取连接时进行验证，默认true-->
+        <property name="testOnBorrow" value="true"/>
+        <!--新建连接时进行验证，默认false-->
+        <property name="testOnCreate" value="false"/>
+        <!--连接释放回池时进行验证，默认false-->
+        <property name="testOnReturn" value="false"/>
+
+        <!--如果不设置，将调用Connection#isValid(int timeout)验证数据库是否有效-->
+        <property name="validationQuery" value=""/>
+        <!--连接存活的最长时间，<=0禁用该配置-->
+        <property name="maxConnLifetimeMillis" value="0"/>
+        <!--驱除定时器执行周期，<=0 代表禁用-->
+        <property name="timeBetweenEvictionRunsMillis" value="0"/>
+        <!--minIdle小于当前空闲连接数量，使用这个时间测试-->
+        <property name="softMinEvictableIdleTimeMillis" value="0"/>
+        <!-- 连接空闲多久从池中驱除 -->
+        <property name="minEvictableIdleTimeMillis" value="0"/>
+        <!--每次测试多少空闲对象， <=0 代表禁用-->
+        <property name="numTestsPerEvictionRun" value="0"/>
+        <!--当连接空闲时是否测试，即保持连接一直存活，配合驱除定时器使用-->
+        <property name="testWhileIdle" value="false"/>
+        <!--判断连接是否需要驱除策略，默认为DefaultEvictionPolicy-->
+        <property name="evictionPolicyClassName" value="org.apache.commons.pool2.impl.DefaultEvictionPolicy"/>
+
+        <!--移除无引用连接，指那些没有close的连接，此处设置为false，需要保证程序中连接一定释放-->
+        <property name="removeAbandonedOnBorrow" value="false"/>
+        <property name="removeAbandonedOnMaintenance" value="false"/>
+        <!--超时后将自动关闭无引用连接，单位：秒-->
+        <property name="removeAbandonedTimeout" value="10"/>
+    </bean>
+</beans>
