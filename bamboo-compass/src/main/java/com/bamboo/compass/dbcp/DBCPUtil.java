@@ -17,7 +17,7 @@ public class DBCPUtil {
     public static void main(String[] args) throws SQLException {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("data-pool.xml");
 
-        DataSource dataSource = (DataSource) ctx.getBean("dataSource");
+        DataSource dataSource = (DataSource) ctx.getBean("dbcp2DataSource");
         System.out.println(dataSource);
         Connection connection = dataSource.getConnection();
         int resultSet = connection.prepareStatement("INSERT INTO test(name) values('xiaoge')").executeUpdate();

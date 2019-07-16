@@ -18,8 +18,9 @@
         <amqp-client.version>5.7.2</amqp-client.version>
         <spring-rabbit.version>2.1.7.RELEASE</spring-rabbit.version>
         <canal.client.version>1.0.12</canal.client.version>
-        <commons-dbcp2.version>2.6.0</commons-dbcp2.version>
         <mysql-connector-java.version>5.1.47</mysql-connector-java.version>
+        <commons-dbcp2.version>2.6.0</commons-dbcp2.version>
+        <druid-version>1.1.18</druid-version>
     </properties>
 
     <dependencies>
@@ -56,18 +57,23 @@
             <artifactId>canal.client</artifactId>
             <version>${canal.client.version}</version>
         </dependency>
-
+        <!--MySQL驱动-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
         <!-- DBCP 数据库连接池 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-dbcp2</artifactId>
             <version>${commons-dbcp2.version}</version>
         </dependency>
-        <!--MySQL驱动-->
+        <!--阿里巴巴Druid数据库连接池-->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql-connector-java.version}</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid-version}</version>
         </dependency>
 
     </dependencies>

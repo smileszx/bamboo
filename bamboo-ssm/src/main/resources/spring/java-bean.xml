@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bambooBean" class="com.bamboo.ssm.temp.BambooBean">
+    </bean>
+
+    <bean id="panda" class="com.bamboo.ssm.temp.Panda" c:_0-ref="bambooBean" p:rabbit-ref="rabbit">
+        <!--<property name="rabbit" ref="rabbit"/>-->
+        <!--<constructor-arg ref="bambooBean"/>-->
+    </bean>
+
+    <bean id="tiger" class="com.bamboo.ssm.temp.Tiger" scope="prototype">
+        <constructor-arg value="NorthEast"/>
+        <constructor-arg>
+            <list>
+                <value>Rabbit</value>
+                <value>Chicken</value>
+                <value>Duck</value>
+                <value>Dog</value>
+                <value>Cat</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="rabbit" class="com.bamboo.ssm.temp.Rabbit"></bean>
+</beans>
