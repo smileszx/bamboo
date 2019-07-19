@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.*;
  * @Author victor su
  * @Date 2019/7/18 19:50
  **/
-@RestController
+@Controller
 public class WelcomeController {
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/welcome", method = RequestMethod.GET)
+    @ResponseBody
     public String welcome () {
         System.out.println(1/0);
         return "welcome to bamboo.";

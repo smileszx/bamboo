@@ -1,17 +1,12 @@
 package com.bamboo.test.beans;
 
-import com.bamboo.ssm.annotation.Rabbit;
 import com.bamboo.ssm.temp.Animal;
-import com.bamboo.ssm.temp.Panda;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
-import javax.inject.Inject;
 
 /**
  * @Description TODO
@@ -22,15 +17,11 @@ import javax.inject.Inject;
 @ContextConfiguration(locations = {"classpath*:spring/java-bean.xml"})
 public class XmlContexTest {
 
-    @Resource(name = "tiger")
+    @Resource
     private Animal tiger;
 
-    @Autowired
-    @Rabbit
+    @Resource
     private Animal rabbit;
-
-    @Inject
-    private Panda panda;
 
     @Test
     public void tigerTest() {
@@ -41,11 +32,5 @@ public class XmlContexTest {
         rabbit.introduce();
         System.out.println(tiger);
         System.out.println(tiger);
-    }
-
-    @Test
-    public void panda() {
-        panda.eat();
-        panda.friend();
     }
 }
