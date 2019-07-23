@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -12,11 +13,11 @@ import org.springframework.context.annotation.Configuration;
  * @Author Thinkpad
  * @Date 2019/7/4 8:25
  **/
-@Configuration
 @SpringBootApplication
-public class Application extends SpringBootServletInitializer {
+@EnableEurekaClient
+public class BambooCompassApplication{
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(BambooCompassApplication.class, args);
     }
 }

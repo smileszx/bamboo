@@ -1,0 +1,50 @@
+server:
+  port:8081
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+  instance:
+    hostname: localhost
+    instance-id: bamboo-provider-8081
+
+spring:
+  application:
+    name: bamboo-provider-depart
+  freemarker:
+    prefer-file-system-access: false
+  jpa:
+    # ָ����Spring��������ʱ�Ƿ��Զ�����Ĭ��Ϊfalse
+    generate-ddl: true
+    # ָ���Ƿ��ڿ���̨��ʾ��ִ�е�SQL��䣬Ĭ��false
+    show-sql: true
+    # ָ��Ӧ������ʱ�Ƿ����´������±�
+    hibernate:
+      ddl-auto: none
+  # ��������Դ
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///coffeebaby?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+logging:
+  # ������־�����ʽ
+  pattern:
+    console: level-%level %msg%n
+  level:
+    root: info   # ����Spring Boot����ʱ����־����
+
+    org.hibernate: info   # ����hibernate����ʱ����־����
+    # ��show-sqlΪtrueʱ����ʾSQL�еĶ�̬����ֵ
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+    # ��show-sqlΪtrueʱ����ʾSQL��ѯ���
+    org.hibernate.type.descriptor.sql.BasicExtractor: trace
+
+    com.abc.provider: debug
+info:
+  auth: victor
+  app.name: bamboo
+  app.desc: This is bamboo.
+  company.name: www.bamboo.com
+  company.addr: Beijing China
