@@ -3,15 +3,21 @@ package com.bamboo.distribute.provider.controller;
 import com.bamboo.distribute.provider.bean.Depart;
 import com.bamboo.distribute.provider.service.DepartService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RequestMapping("/provider/depart")
 @RestController
 public class DepartController {
     @Autowired
     private DepartService service;
+
+    @Autowired
+    private DiscoveryClient client;
 
     @PostMapping("/save")
     public boolean saveHandle(@RequestBody Depart depart) {
@@ -36,5 +42,21 @@ public class DepartController {
     @GetMapping("/list")
     public List<Depart> listHandle() {
         return service.listAllDeparts();
+    }
+
+    @GetMapping("/discovery")
+    public Object discoveryHandle() {
+        //获取注册表中所有微服务名称，也就是spring.application.name的名称
+        List<String> springApplicationNames = client.getServices();
+        for(String name : springApplicationNames) {
+            List<ServiceInstance> instances = client.getInstances(name);
+            for (ServiceInstance instance : instances) {
+                String host = instance.getHost();
+                int port = instance.getPort();
+                Map<String, String> meta = instance.getMetadata();
+                System.out.println(host + " : " + port + " , Metadata: " + meta);
+            }
+        }
+        return springApplicationNames;
     }
 }

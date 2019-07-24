@@ -14,7 +14,9 @@ import org.springframework.context.annotation.Configuration;
  * @Date 2019/7/4 8:25
  **/
 @SpringBootApplication
-@EnableEurekaClient
+//添加spring-cloud-starter-netflix-eureka-client，自动注册到Eureka Server，
+// 不需要@EnableEurekaClient
+//@EnableEurekaClient
 public class BambooCompassApplication{
 
     public static void main(String[] args) {
