@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
@@ -18,6 +19,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 // 不需要@EnableEurekaClient
 //@EnableEurekaClient
 @SpringCloudApplication
+//开启Hystrix仪表盘功能
+@EnableHystrixDashboard
 public class BambooCompassApplication{
 
     public static void main(String[] args) {

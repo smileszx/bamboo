@@ -3,6 +3,7 @@ package com.bamboo.compass.config;
 import com.bamboo.compass.consumer.irule.CustomRule;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
+import com.netflix.loadbalancer.RoundRobinRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -34,6 +35,6 @@ public class JavaConfig {
 
     @Bean
     public IRule loadBalanceRule() {
-        return new RandomRule();
+        return new RoundRobinRule();
     }
 }

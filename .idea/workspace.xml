@@ -7,31 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f470a135-d1c6-4013-a4a3-e46db9686da8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/controller/FeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/irule/CustomRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/FallBackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-eureka-server/src/main/java/com/bamboo/eureka/server/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/BambooCompassApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/BambooCompassApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/config/JavaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/bean/Depart.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/bean/Depart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/controller/DepartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/controller/DepartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/repository/DepartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/repository/DepartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/service/DepartService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/service/DepartServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/controller/DepartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/controller/DepartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-eureka-server/src/main/java/com/bamboo/eureka/server/EurekaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-eureka-server/src/main/java/com/bamboo/eureka/server/EurekaServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-eureka-server/target/classes/META-INF/bamboo-eureka-server.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/classes/META-INF/bamboo-ssm.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,52 +68,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/FallBackFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="62" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/BambooCompassApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="275">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="e#750#751#0" expanded="true" />
                 <element signature="e#825#826#0" expanded="true" />
@@ -145,20 +81,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/controller/FeignController.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state relative-caret-position="1520">
+              <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-compass/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-870">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1235#1236#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/controller/DepartController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/config/JavaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,38 +160,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/controller/FeignController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="788">
+              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartFallBack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/config/JavaConfig.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartFallBack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="-718">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -290,13 +267,13 @@
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/irule/CustomRule.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/irule/CustomRule.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/pom.xml" />
-        <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/BambooCompassApplication.java" />
-        <option value="$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/FallBackFactory.java" />
         <option value="$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartService.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartFallBack.java" />
+        <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/BambooCompassApplication.java" />
+        <option value="$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/config/JavaConfig.java" />
       </list>
     </option>
@@ -437,7 +414,16 @@
             </path>
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-compass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -456,7 +442,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564062697862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564068368133" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bamboo-compass/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -500,7 +486,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BambooCompassApplication-8080">
+  <component name="RunManager" selected="Spring Boot.BambooDistributeApplication-8082">
     <configuration name="ZookeeperDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bamboo.ssm.zk.ZookeeperDemo" />
       <module name="bamboo-ssm" />
@@ -956,7 +942,7 @@
       <workItem from="1563155762488" duration="24090000" />
       <workItem from="1563246603223" duration="38928000" />
       <workItem from="1563506249245" duration="10752000" />
-      <workItem from="1563795506044" duration="59304000" />
+      <workItem from="1563795506044" duration="60685000" />
     </task>
     <servers />
   </component>
@@ -993,12 +979,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153598000" />
+    <option name="totallyTimeSpent" value="154979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.19772118" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.25737265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1232,13 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/controller/DepartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1527,14 +1507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-compass/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/SpringCloudApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -1549,33 +1521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/FallBackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1586,23 +1531,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/BambooCompassApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-compass/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/controller/DepartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/config/JavaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/BambooCompassApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1619,7 +1619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/controller/FeignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
+        <state relative-caret-position="788">
           <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1637,22 +1637,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartFallBack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="-718">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/config/JavaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
           </folding>
         </state>
       </provider>
