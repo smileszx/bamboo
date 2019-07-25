@@ -7,6 +7,7 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.Map;
 
@@ -58,5 +59,11 @@ public class DepartController {
             }
         }
         return springApplicationNames;
+    }
+
+    @GetMapping("/url")
+    public String portHandle (HttpServletRequest request) {
+        System.out.println("URL: " + request.getServerName() + ":" + request.getServerPort() + request.getServletPath());
+        return "URL: " + request.getServerName() + ":" + request.getServerPort() + request.getServletPath();
     }
 }

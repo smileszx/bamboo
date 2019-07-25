@@ -1,6 +1,6 @@
-package com.bamboo.compass.provider.repository;
+package com.bamboo.compass.consumer.repository;
 
-import com.bamboo.compass.provider.bean.Depart;
+import com.bamboo.compass.consumer.bean.Depart;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

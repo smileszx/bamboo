@@ -1,4 +1,4 @@
-package com.bamboo.compass.provider.bean;
+package com.bamboo.compass.consumer.bean;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

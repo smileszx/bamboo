@@ -10,7 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>bamboo-eureka-server</artifactId>
-
+    <groupId>com.bamboo</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>bamboo-eureka-server</name>
+    <description>Spring Cloud Eureka Server</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
@@ -28,6 +32,10 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <!-- spring boot test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

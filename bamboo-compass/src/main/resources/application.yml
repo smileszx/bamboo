@@ -4,6 +4,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
 spring:
   application:
     name: bamboo-consumer
@@ -44,3 +45,31 @@ info:
   app.desc: This is bamboo.
   company.name: www.bamboo.com
   company.addr: Beijing China
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        # Feign连接提供者超时时限， 决定于网络状况影响
+        connectTimeout: 5000
+        # Feign请求到提供响应的超时时限， 决定于服务处理及运算时间
+        readTimeout: 5000
+  compression:
+    request:
+      # 开启对请求的压缩
+      enabled: true
+      # 指定压缩MIME文件类型
+      mime-types: ["text/xml", "application/xml", "application/json"]
+      # 指定启用压缩的最小文件大小，单位字节
+      min-request-size: 2048
+    response:
+      # 开启对客户端响应的压缩
+      enabled: true
+
+# 修改负载均衡策略
+# 要负载均衡的提供者微服务名称
+#bamboo-provider:
+  # 指定要使用的负载均衡策略
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

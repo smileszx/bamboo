@@ -4,7 +4,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-
 spring:
   application:
     name: bamboo-consumer
@@ -45,31 +44,3 @@ info:
   app.desc: This is bamboo.
   company.name: www.bamboo.com
   company.addr: Beijing China
-feign:
-  hystrix:
-    enabled: true
-  client:
-    config:
-      default:
-        # Feign�����ṩ�߳�ʱʱ�ޣ� ����������״��Ӱ��
-        connectTimeout: 5000
-        # Feign�����ṩ��Ӧ�ĳ�ʱʱ�ޣ� �����ڷ���������ʱ��
-        readTimeout: 5000
-  compression:
-    request:
-      # �����������ѹ��
-      enabled: true
-      # ָ��ѹ��MIME�ļ�����
-      mime-types: ["text/xml", "application/xml", "application/json"]
-      # ָ������ѹ������С�ļ���С����λ�ֽ�
-      min-request-size: 2048
-    response:
-      # �����Կͻ�����Ӧ��ѹ��
-      enabled: true
-
-# �޸ĸ��ؾ������
-# Ҫ���ؾ�����ṩ��΢��������
-#bamboo-provider:
-  # ָ��Ҫʹ�õĸ��ؾ������
-#  ribbon:
-#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

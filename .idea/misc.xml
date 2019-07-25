@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/bamboo-compass" />
     <file type="web" url="file://$PROJECT_DIR$/bamboo-distribute" />
+    <file type="web" url="file://$PROJECT_DIR$/bamboo-eureka-server" />
     <file type="web" url="file://$PROJECT_DIR$/bamboo-ssm" />
   </component>
   <component name="MavenProjectsManager">

@@ -6,7 +6,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 #  instance:
-#    instance-id: bamboo-provider-8081
+#    instance-id: bamboo-consumer-8081
 # …Ë÷√Spring-Data-JPA
 spring:
   application:

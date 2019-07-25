@@ -1,9 +1,15 @@
 package com.bamboo.compass.config;
 
+import com.bamboo.compass.consumer.irule.CustomRule;
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @Description TODO
@@ -19,4 +25,15 @@ public class JavaConfig {
         return new RestTemplate();
     }
 
+//    @Bean
+//    public IRule loadBalanceRule() {
+//        List<Integer> ports = new ArrayList<>();
+//        ports.add(8082);
+//        return new CustomRule(ports);
+//    }
+
+    @Bean
+    public IRule loadBalanceRule() {
+        return new RandomRule();
+    }
 }

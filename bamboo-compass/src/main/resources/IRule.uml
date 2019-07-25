@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.netflix.loadbalancer.IRule</OriginalElement>
+  <nodes>
+    <node x="464.0" y="240.0">com.netflix.loadbalancer.WeightedResponseTimeRule</node>
+    <node x="311.75" y="80.0">com.netflix.loadbalancer.AbstractLoadBalancerRule</node>
+    <node x="377.5" y="320.0">com.netflix.loadbalancer.ZoneAvoidanceRule</node>
+    <node x="499.0" y="160.0">com.netflix.loadbalancer.RoundRobinRule</node>
+    <node x="142.00000000000003" y="160.0">com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule</node>
+    <node x="0.0" y="160.0">com.netflix.loadbalancer.RandomRule</node>
+    <node x="173.50000000000003" y="320.0">com.netflix.loadbalancer.AvailabilityFilteringRule</node>
+    <node x="373.75" y="0.0">com.netflix.loadbalancer.IRule</node>
+    <node x="110.0" y="240.0">com.netflix.loadbalancer.BestAvailableRule</node>
+    <node x="665.0" y="160.0">com.netflix.loadbalancer.RetryRule</node>
+    <node x="281.0" y="240.0">com.netflix.loadbalancer.PredicateBasedRule</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.netflix.loadbalancer.RandomRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+      <point x="0.0" y="-15.0" />
+      <point x="61.0" y="130.0" />
+      <point x="336.75" y="130.0" />
+      <point x="-75.0" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.BestAvailableRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule">
+      <point x="0.0" y="-15.0" />
+      <point x="185.5" y="215.0" />
+      <point x="208.00000000000003" y="215.0" />
+      <point x="-66.0" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.AbstractLoadBalancerRule" target="com.netflix.loadbalancer.IRule">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.WeightedResponseTimeRule" target="com.netflix.loadbalancer.RoundRobinRule">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.RoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+      <point x="0.0" y="-15.0" />
+      <point x="572.0" y="140.0" />
+      <point x="436.75" y="140.0" />
+      <point x="25.0" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.PredicateBasedRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule">
+      <point x="0.0" y="-15.0" />
+      <point x="362.5" y="215.0" />
+      <point x="340.0" y="215.0" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.ZoneAvoidanceRule" target="com.netflix.loadbalancer.PredicateBasedRule">
+      <point x="0.0" y="-15.0" />
+      <point x="459.5" y="295.0" />
+      <point x="403.25" y="295.0" />
+      <point x="40.75" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.RetryRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+      <point x="0.0" y="-15.0" />
+      <point x="717.0" y="130.0" />
+      <point x="486.75" y="130.0" />
+      <point x="75.0" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+      <point x="0.0" y="-15.0" />
+      <point x="274.0" y="140.0" />
+      <point x="386.75" y="140.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.AvailabilityFilteringRule" target="com.netflix.loadbalancer.PredicateBasedRule">
+      <point x="0.0" y="-15.0" />
+      <point x="265.5" y="295.0" />
+      <point x="321.75" y="295.0" />
+      <point x="-40.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="329.0" y="178.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
