@@ -2,7 +2,10 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/bamboo-compass" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bamboo-distribute" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/bamboo-eureka-server" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

@@ -1,24 +1,23 @@
 server:
-  port:8080
+  port: 8080
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-
 spring:
   application:
     name: bamboo-consumer
+  redis:
+    host: 192.168.1.101
+    port: 6379
+    timeout: 10000
   freemarker:
     prefer-file-system-access: false
   jpa:
-    # 指定在Spring容器启动时是否自动建表，默认为false
     generate-ddl: true
-    # 指定是否在控制台显示其执行的SQL语句，默认false
     show-sql: true
-    # 指定应用重启时是否重新创建更新表
     hibernate:
       ddl-auto: none
-  # 配置数据源
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
@@ -26,18 +25,13 @@ spring:
     username: root
     password: root
 logging:
-  # 设置日志输出格式
   pattern:
     console: level-%level %msg%n
   level:
-    root: info   # 控制Spring Boot启动时的日志级别
-
-    org.hibernate: info   # 控制hibernate运行时的日志级别
-    # 在show-sql为true时，显示SQL中的动态参数值
+    root: info
+    org.hibernate: info
     org.hibernate.type.descriptor.sql.BasicBinder: trace
-    # 在show-sql为true时，显示SQL查询结果
     org.hibernate.type.descriptor.sql.BasicExtractor: trace
-
     com.abc.provider: debug
 info:
   auth: victor
@@ -51,26 +45,16 @@ feign:
   client:
     config:
       default:
-        # Feign连接提供者超时时限， 决定于网络状况影响
         connectTimeout: 5000
-        # Feign请求到提供响应的超时时限， 决定于服务处理及运算时间
         readTimeout: 5000
   compression:
     request:
-      # 开启对请求的压缩
       enabled: true
-      # 指定压缩MIME文件类型
       mime-types: ["text/xml", "application/xml", "application/json"]
-      # 指定启用压缩的最小文件大小，单位字节
       min-request-size: 2048
     response:
-      # 开启对客户端响应的压缩
       enabled: true
-
-# 修改负载均衡策略
-# 要负载均衡的提供者微服务名称
 #bamboo-provider:
-  # 指定要使用的负载均衡策略
 #  ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 management:
@@ -85,3 +69,4 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 3000
+
