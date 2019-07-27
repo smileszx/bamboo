@@ -1,7 +1,7 @@
-package com.bamboo.distribute.provider.service;
+package com.bamboo.distribute.service;
 
 
-import com.bamboo.distribute.provider.bean.Depart;
+import com.bamboo.distribute.po.Depart;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.bamboo.distribute.provider.bean;
+package com.bamboo.distribute.po;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

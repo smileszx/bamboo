@@ -1,7 +1,7 @@
-package com.bamboo.distribute.provider.controller;
+package com.bamboo.distribute.controller;
 
-import com.bamboo.distribute.provider.bean.Depart;
-import com.bamboo.distribute.provider.service.DepartService;
+import com.bamboo.distribute.po.Depart;
+import com.bamboo.distribute.service.DepartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;

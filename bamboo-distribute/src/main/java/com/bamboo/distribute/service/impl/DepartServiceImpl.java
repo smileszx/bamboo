@@ -1,7 +1,8 @@
-package com.bamboo.distribute.provider.service;
+package com.bamboo.distribute.service.impl;
 
-import com.bamboo.distribute.provider.bean.Depart;
-import com.bamboo.distribute.provider.repository.DepartRepository;
+import com.bamboo.distribute.po.Depart;
+import com.bamboo.distribute.repository.DepartRepository;
+import com.bamboo.distribute.service.DepartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

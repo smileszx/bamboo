@@ -1,6 +1,6 @@
-package com.bamboo.distribute.provider.repository;
+package com.bamboo.distribute.repository;
 
-import com.bamboo.distribute.provider.bean.Depart;
+import com.bamboo.distribute.po.Depart;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
