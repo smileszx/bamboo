@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f470a135-d1c6-4013-a4a3-e46db9686da8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bamboo_distribute_provider_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/bamboo_mvc_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/bean/Depart.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Depart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/controller/DepartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/controller/DepartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/repository/DepartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/repository/DepartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/service/DepartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/service/impl/DepartServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,100 +68,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/bamboo-eureka-server/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="202">
+              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/controller/FeignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/RoundRobinRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
-              <folding>
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#3313#3314#0" expanded="true" />
-                <element signature="e#3366#3367#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/repository/DepartRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/service/DepartService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/service/impl/DepartServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/controller/DepartController.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Depart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="646">
+              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/BambooDistributeApplication.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -279,15 +216,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="bamboo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bamboo-compass" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bamboo-compass" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -313,76 +241,6 @@
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="distribute" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -401,19 +259,24 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564242775260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564247502691" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bamboo-compass/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27857935" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.bamboo.ssm.exception" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GIT\bamboo\bamboo-ssm\src\main\webapp" />
+      <recent name="E:\GIT\bamboo\bamboo-webmvc\src" />
+      <recent name="E:\GIT\bamboo\bamboo-webmvc\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bamboo.distribute" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GIT\bamboo\bamboo-compass\src\main\java\com\bamboo\compass\provider" />
@@ -422,18 +285,13 @@
       <recent name="E:\GIT\bamboo\bamboo-ssm\src\main" />
       <recent name="E:\GIT\bamboo\bamboo-ssm\src\main\resources" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.bamboo.distribute" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bamboo.compass.provider.controller" />
       <recent name="com.bamboo.eureka.server" />
       <recent name="com.bamboo.compass" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GIT\bamboo\bamboo-ssm\src\main\webapp" />
-      <recent name="E:\GIT\bamboo\bamboo-webmvc\src" />
-      <recent name="E:\GIT\bamboo\bamboo-webmvc\src\main" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bamboo.ssm.exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -943,13 +801,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163231000" />
+    <option name="totallyTimeSpent" value="164030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.26407507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.1802949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -960,7 +817,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32963988" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32963988" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" weight="0.4570637" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.4570637" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -994,13 +851,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar!/org/apache/zookeeper/KeeperException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/zk/ZookeeperDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1037,19 +887,11 @@
         <state relative-caret-position="-57" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" selection-start-line="37" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-eureka-server/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="202">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1459,13 +1301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-compass/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1555,6 +1390,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute-provider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1620,7 +1478,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bamboo-eureka-server</last-edited>
+          <last-edited>bamboo-compass</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
