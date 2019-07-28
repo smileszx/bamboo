@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f470a135-d1c6-4013-a4a3-e46db9686da8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bamboo_distribute_provider_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/bamboo_mvc_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f470a135-d1c6-4013-a4a3-e46db9686da8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bamboo-compass/target/" />
@@ -97,11 +93,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/bamboo_distribute_provider_war_exploded.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <caret line="6" column="70" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -140,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/controller/welcomeController.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/webapp/WEB-INF/jsp/error.jsp" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/exception/DataNotFoundException.java" />
@@ -179,7 +183,6 @@
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/irule/CustomRule.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/irule/CustomRule.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/FallBackFactory.java" />
-        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/service/DepartServiceImpl.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartService.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartFallBack.java" />
@@ -191,6 +194,8 @@
         <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/service/DepartServiceImpl.java" />
         <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/service/impl/DepartServiceImpl.java" />
         <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/repository/DepartRepository.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/bamboo_distribute_provider_war_exploded.xml" />
       </list>
     </option>
   </component>
@@ -241,6 +246,17 @@
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -259,12 +275,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564247502691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564274427113" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bamboo-compass/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27857935" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -801,12 +817,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164030000" />
+    <option name="totallyTimeSpent" value="164270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.1802949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.28485253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -851,16 +868,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/zk/ZookeeperDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-eureka-server/src/main/java/com/bamboo/eureka/common/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1408,8 +1415,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/bamboo_distribute_provider_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1430,7 +1444,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>bamboo-ssm:war exploded</last-edited>
+          <last-edited>bamboo-distribute:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
