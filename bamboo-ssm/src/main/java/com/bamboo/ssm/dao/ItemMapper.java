@@ -1,4 +1,4 @@
-package com.bamboo.ssm.mapper;
+package com.bamboo.ssm.dao;
 
 import java.util.List;
 

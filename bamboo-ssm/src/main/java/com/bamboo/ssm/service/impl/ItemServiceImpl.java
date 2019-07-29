@@ -1,6 +1,6 @@
 package com.bamboo.ssm.service.impl;
 
-import com.bamboo.ssm.mapper.ItemMapper;
+import com.bamboo.ssm.dao.ItemMapper;
 import com.bamboo.ssm.po.Item;
 import com.bamboo.ssm.po.ItemExample;
 import com.bamboo.ssm.service.ItemService;
@@ -22,6 +22,11 @@ public class ItemServiceImpl implements ItemService {
 		List<Item> list = mapper.selectByExample(example);
 		
 		return list;
+	}
+
+	@Override
+	public int saveItem(Item item) {
+		return mapper.insert(item);
 	}
 
 }

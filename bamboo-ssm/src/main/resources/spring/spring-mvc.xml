@@ -16,8 +16,10 @@
     
     <!-- 配置三大组件之处理器适配器和处理器映射器 -->
     <!-- 内置了RequestMappingHandlerMapping和RequestMappingHandlerAdapter等组件注册-->
-    <mvc:annotation-driven/> 
-    
+    <mvc:annotation-driven/>
+	<!-- 将springmvc不能处理的请求交给tomcat -->
+	<mvc:default-servlet-handler/>
+
     <!-- 配置三大组件之视图解析器 -->
     <!-- InternalResourceViewResolver:默认支持JSP视图解析-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -25,4 +27,12 @@
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+
+	<mvc:annotation-driven>
+		<mvc:message-converters>
+			<bean class="org.springframework.http.converter.StringHttpMessageConverter">
+				<constructor-arg value="UTF-8"/>
+			</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
 </beans>

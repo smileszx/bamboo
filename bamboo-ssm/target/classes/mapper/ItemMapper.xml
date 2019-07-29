@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.bamboo.ssm.mapper.ItemMapper" >
+<mapper namespace="com.bamboo.ssm.dao.ItemMapper" >
   <resultMap id="BaseResultMap" type="com.bamboo.ssm.po.Item" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
@@ -99,7 +99,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.kkb.springmvc.po.Item" >
+  <insert id="insert" parameterType="com.bamboo.ssm.po.Item" >
     insert into item (id, name, price, 
       pic, createtime)
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{price,jdbcType=REAL}, 

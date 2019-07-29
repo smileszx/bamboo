@@ -21,6 +21,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AOPConfig.class)
 public class AOPTest {
+
     @Autowired
     @Qualifier("singPerformance")
     private Performance performance;

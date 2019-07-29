@@ -1,7 +1,6 @@
 package com.bamboo.ssm.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
@@ -12,7 +11,7 @@ import org.springframework.core.env.Environment;
  * @Date 2019/7/16 20:07
  **/
 @Configuration
-@PropertySource("classpath:db.properties")
+@PropertySource("classpath:jdbc.properties")
 public class DBConfig {
 
     @Autowired

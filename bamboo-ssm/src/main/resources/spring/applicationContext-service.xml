@@ -18,6 +18,9 @@
 
 	<!-- 配置事务 -->
 	<!-- 事务管理器，对mybatis操作数据库进行事务控制，此处使用jdbc的事务控制 -->
+	<!--
+    事务控制，这个是Spring本身的配置，最主要的作用就是：保证ACID
+	-->
 	<bean id="transactionManager"
 		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<!-- 指定要进行事务管理的数据源 -->
