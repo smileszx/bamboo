@@ -21,6 +21,7 @@
         <mysql.version>5.1.47</mysql.version>
         <mybatis.version>2.0.1</mybatis.version>
         <druid.version>1.1.10</druid.version>
+        <hessian.version>4.0.62</hessian.version>
     </properties>
     <!-- Spring Cloud G版-->
     <dependencyManagement>
@@ -96,6 +97,12 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
             <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.caucho</groupId>
+            <artifactId>hessian</artifactId>
+            <version>${hessian.version}</version>
         </dependency>
     </dependencies>
     <build>

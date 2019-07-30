@@ -14,37 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f470a135-d1c6-4013-a4a3-e46db9686da8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/dto/ConditionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/util/MyBatisGeneratorSqlMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/ssm/SaveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/ssm/SelectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/bamboo_ssm_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/bamboo_ssm_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/HessianDeserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/JavaDeserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/lock/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/ExternalizableProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/HessianSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/JavaSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-distribute/src/test/java/com/bamboo/distribute/SerializationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/target/bamboo-compass-2.1.6.RELEASE/WEB-INF/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-compass/target/bamboo-compass-2.1.6.RELEASE/WEB-INF/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/config/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/config/DBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/dao/ItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/mapper/ItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/aop/AOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/aop/AOPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bamboo-distribute/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-distribute/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,68 +82,116 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/util/MyBatisGeneratorSqlMap.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="228">
+              <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#650#658#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/JavaSerialization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/JavaDeserialization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/test/java/com/bamboo/distribute/SerializationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/io/ObjectOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="341" column="22" selection-start-line="341" selection-start-column="22" selection-end-line="341" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/HessianDeserialization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/HessianSerialization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/controller/ItemController.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/ExternalizableProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/dto/ConditionDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/applicationContext-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/dao/ItemMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/po/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="368">
+              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,17 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/zk/ZookeeperDemo.java" />
-        <option value="$PROJECT_DIR$/bamboo-distribute/pom.xml" />
-        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/BambooDistributeApplication.java" />
-        <option value="$PROJECT_DIR$/bamboo-eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/controller/DepartController.java" />
-        <option value="$PROJECT_DIR$/bamboo-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/bamboo-eureka-server/src/main/java/com/bamboo/eureka/server/EurekaServer.java" />
-        <option value="$PROJECT_DIR$/bamboo-eureka-server/src/main/java/com/bamboo/eureka/server/ServletInitializer.java" />
-        <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/controller/FeignController.java" />
-        <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/service/DepartService.java" />
-        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/provider/controller/DepartController.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/provider/irule/CustomRule.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/irule/CustomRule.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/FallBackFactory.java" />
@@ -255,6 +272,17 @@
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/util/MyBatisGeneratorSqlMap.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/dto/ConditionDTO.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/lock/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/pom.xml" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/JavaDesrialization.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Product.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/JavaDeserialization.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/JavaSerialization.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/HessianSerialization.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/HessianSerialization.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Order.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/test/java/com/bamboo/distribute/SerializationTest.java" />
+        <option value="$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/ExternalizableProduct.java" />
       </list>
     </option>
   </component>
@@ -312,6 +340,95 @@
             </path>
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="distribute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="deserialization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="serialization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-distribute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="distribute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -332,7 +449,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564413345228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564475269956" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bamboo-mvc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -360,6 +477,7 @@
       <recent name="E:\GIT\bamboo\bamboo-ssm\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bamboo.distribute.po" />
       <recent name="com.bamboo.compass.provider.controller" />
       <recent name="com.bamboo.eureka.server" />
       <recent name="com.bamboo.compass" />
@@ -380,7 +498,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.bamboo-ssm">
+  <component name="RunManager" selected="JUnit.SerializationTest.testExternalizable">
+    <configuration name="LazySingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.distribute.lock.LazySingleton" />
+      <module name="bamboo-distribute" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bamboo.distribute.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyBatisGeneratorSqlMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bamboo.ssm.util.MyBatisGeneratorSqlMap" />
       <module name="bamboo-ssm" />
@@ -394,46 +525,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuartzTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bamboo.ssm.quartz.QuartzTest" />
-      <module name="bamboo-ssm" />
+    <configuration name="SerializationTest.testExternalizable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bamboo-distribute" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bamboo.ssm.quartz.*" />
+          <option name="PATTERN" value="com.bamboo.distribute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SaveTest.saveItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bamboo-ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bamboo.test.ssm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bamboo.test.ssm" />
-      <option name="MAIN_CLASS_NAME" value="com.bamboo.test.ssm.SaveTest" />
-      <option name="METHOD_NAME" value="saveItem" />
+      <option name="PACKAGE_NAME" value="com.bamboo.distribute" />
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.distribute.SerializationTest" />
+      <option name="METHOD_NAME" value="testExternalizable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bamboo-ssm" />
+    <configuration name="SerializationTest.testHessian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bamboo-distribute" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bamboo.test.ssm.*" />
+          <option name="PATTERN" value="com.bamboo.distribute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.bamboo.test.ssm" />
-      <option name="MAIN_CLASS_NAME" value="com.bamboo.test.ssm.SelectTest" />
-      <option name="METHOD_NAME" value="testSelect" />
+      <option name="PACKAGE_NAME" value="com.bamboo.distribute" />
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.distribute.SerializationTest" />
+      <option name="METHOD_NAME" value="testHessian" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializationTest.testSerialization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bamboo-distribute" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bamboo.distribute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bamboo.distribute" />
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.distribute.SerializationTest" />
+      <option name="METHOD_NAME" value="testSerialization" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -501,20 +635,6 @@
           <option name="value" value="8083" />
         </param>
       </additionalParameters>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServer-8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="bamboo-eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bamboo.eureka.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bamboo.eureka.server.EurekaServer" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -845,26 +965,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QuartzTest" />
-      <item itemvalue="JUnit.SelectTest.testSelect" />
       <item itemvalue="Spring Boot.BambooDistributeApplication-8081" />
       <item itemvalue="Spring Boot.BambooDistributeApplication-8083" />
       <item itemvalue="Spring Boot.BambooDistributeApplication-8082" />
       <item itemvalue="Spring Boot.BambooCompassApplication-8080" />
-      <item itemvalue="Spring Boot.EurekaServer-8761" />
       <item itemvalue="Tomcat Server.bamboo-eureka-server" />
       <item itemvalue="Tomcat Server.bamboo-distribute" />
       <item itemvalue="Tomcat Server.bamboo-ssm" />
-      <item itemvalue="JUnit.SaveTest.saveItem" />
       <item itemvalue="Application.MyBatisGeneratorSqlMap" />
+      <item itemvalue="Application.LazySingleton" />
+      <item itemvalue="JUnit.SerializationTest.testSerialization" />
+      <item itemvalue="JUnit.SerializationTest.testHessian" />
+      <item itemvalue="JUnit.SerializationTest.testExternalizable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SerializationTest.testExternalizable" />
+        <item itemvalue="JUnit.SerializationTest.testHessian" />
+        <item itemvalue="JUnit.SerializationTest.testSerialization" />
+        <item itemvalue="Application.LazySingleton" />
         <item itemvalue="Application.MyBatisGeneratorSqlMap" />
-        <item itemvalue="JUnit.SaveTest.saveItem" />
-        <item itemvalue="JUnit.SelectTest.testSelect" />
-        <item itemvalue="Application.QuartzTest" />
-        <item itemvalue="Spring Boot.EurekaServer-8761" />
       </list>
     </recent_temporary>
   </component>
@@ -894,42 +1014,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AOPXmlTest_testCriticism - 2019.07.17 at 11h 26m 46s.xml">
-      <configuration name="AOPXmlTest.testCriticism" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testSerialization - 2019.07.30 at 15h 48m 34s.xml">
+      <configuration name="SerializationTest.testSerialization" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPXmlTest_testCriticism - 2019.07.17 at 11h 27m 55s.xml">
-      <configuration name="AOPXmlTest.testCriticism" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testSerialization - 2019.07.30 at 15h 55m 48s.xml">
+      <configuration name="SerializationTest.testSerialization" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectTest_testSelect - 2019.07.29 at 10h 38m 40s.xml">
-      <configuration name="SelectTest.testSelect" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testHessian - 2019.07.30 at 16h 01m 56s.xml">
+      <configuration name="SerializationTest.testHessian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectTest_testSelect - 2019.07.29 at 10h 40m 32s.xml">
-      <configuration name="SelectTest.testSelect" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testHessian - 2019.07.30 at 16h 02m 49s.xml">
+      <configuration name="SerializationTest.testHessian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectTest_testSelect - 2019.07.29 at 10h 42m 37s.xml">
-      <configuration name="SelectTest.testSelect" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testHessian - 2019.07.30 at 16h 08m 46s.xml">
+      <configuration name="SerializationTest.testHessian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectTest_testSelect - 2019.07.29 at 10h 46m 07s.xml">
-      <configuration name="SelectTest.testSelect" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testHessian - 2019.07.30 at 16h 09m 35s.xml">
+      <configuration name="SerializationTest.testHessian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectTest_testSelect - 2019.07.29 at 10h 46m 17s.xml">
-      <configuration name="SelectTest.testSelect" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testExternalizable - 2019.07.30 at 16h 19m 40s.xml">
+      <configuration name="SerializationTest.testExternalizable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectTest_testSelect - 2019.07.29 at 10h 46m 48s.xml">
-      <configuration name="SelectTest.testSelect" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testExternalizable - 2019.07.30 at 16h 21m 00s.xml">
+      <configuration name="SerializationTest.testExternalizable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SaveTest_saveItem - 2019.07.29 at 11h 23m 00s.xml">
-      <configuration name="SaveTest.saveItem" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testExternalizable - 2019.07.30 at 16h 23m 47s.xml">
+      <configuration name="SerializationTest.testExternalizable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SaveTest_saveItem - 2019.07.29 at 11h 48m 28s.xml">
-      <configuration name="SaveTest.saveItem" configurationId="JUnit" />
+    <history-entry file="SerializationTest_testExternalizable - 2019.07.30 at 16h 24m 10s.xml">
+      <configuration name="SerializationTest.testExternalizable" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196628000" />
+    <option name="totallyTimeSpent" value="205998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.2660858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -959,18 +1080,18 @@
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
       <window_info anchor="bottom" id="Application Servers" order="18" weight="0.32963988" />
       <window_info anchor="bottom" id="Problems" order="19" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4978903" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4978903" weight="0.2808311" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.23592493" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" sideWeight="0.49156117" weight="0.3297587" />
-      <window_info anchor="right" x="0" y="0" width="337" height="678" id="Documentation" order="10" sideWeight="0.5021097" side_tool="true" weight="0.36126006" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" sideWeight="0.4978903" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="4" sideWeight="0.49156117" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.4978903" weight="0.2808311" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.23592493" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" x="0" y="0" width="337" height="678" id="Documentation" order="11" sideWeight="0.5021097" side_tool="true" weight="0.36126006" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -981,76 +1102,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/META-INF/maven/org.quartz-scheduler/quartz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5326" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/META-INF/terracotta/public-api-types">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/core/QuartzScheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2-sources.jar!/org/quartz/core/QuartzScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2-sources.jar!/org/quartz/management/ManagementServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-310">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2-sources.jar!/org/quartz/spi/JobFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2-sources.jar!/org/quartz/spi/JobStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/java-bean.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/webapp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2-sources.jar!/org/quartz/JobDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/beans/XmlContexTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.1.8.RELEASE/spring-context-support-5.1.8.RELEASE-sources.jar!/org/springframework/scheduling/quartz/MethodInvokingJobDetailFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1346,6 +1397,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/controller/DepartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/lock/LazySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="341" column="22" selection-start-line="341" selection-start-column="22" selection-end-line="341" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/JavaSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/HessianSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/JavaDeserialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/HessianDeserialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" selection-start-line="18" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/test/java/com/bamboo/distribute/SerializationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/po/ExternalizableProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
