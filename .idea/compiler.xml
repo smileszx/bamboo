@@ -10,6 +10,7 @@
         <module name="bamboo-distribute" />
         <module name="bamboo-eureka-server" />
         <module name="bamboo-ssm" />
+        <module name="bamboo-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="bamboo-compass" options="-parameters" />
       <module name="bamboo-distribute" options="-parameters" />
       <module name="bamboo-eureka-server" options="-parameters" />
+      <module name="bamboo-zuul" options="-parameters" />
     </option>
   </component>
 </project>

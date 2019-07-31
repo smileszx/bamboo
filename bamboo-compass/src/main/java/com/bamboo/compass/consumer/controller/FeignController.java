@@ -42,6 +42,7 @@ public class FeignController {
 
     @GetMapping("/get/{id}")
     public Depart getHandle(@PathVariable("id") int id, HttpServletRequest request) {
+        System.out.println("URL: " + request.getServerName() + ":" + request.getServerPort() + request.getServletPath());
         String key = request.getLocalAddr() + "_getDepartById_fallback";
         queryCache(key);
         return departService.getDepartById(id);

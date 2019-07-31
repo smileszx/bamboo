@@ -6,12 +6,14 @@
     <file type="web" url="file://$PROJECT_DIR$/bamboo-distribute" />
     <file type="web" url="file://$PROJECT_DIR$/bamboo-eureka-server" />
     <file type="web" url="file://$PROJECT_DIR$/bamboo-ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/bamboo-zuul" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bamboo-distribute/pom.xml" />
+        <option value="$PROJECT_DIR$/bamboo-zuul/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

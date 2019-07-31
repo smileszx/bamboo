@@ -26,6 +26,7 @@ import java.io.ObjectOutput;
 @Data
 @Accessors(chain = true)
 public class ExternalizableProduct implements Externalizable {
+    private static final long serialVersionUID = -2442587874393827159L;
     private long productId;
 
     private transient String productName;
