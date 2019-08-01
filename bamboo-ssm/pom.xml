@@ -31,6 +31,7 @@
         <zookeeper.version>3.5.5</zookeeper.version>
         <zkclient.version>0.11</zkclient.version>
         <quartz.version>2.2.2</quartz.version>
+        <guava.version>28.0-jre</guava.version>
     </properties>
 
     <dependencies>
@@ -230,6 +231,12 @@
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
             <version>${quartz.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
     </dependencies>
 
