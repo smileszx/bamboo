@@ -36,8 +36,9 @@ public class TokenBucketTest {
     }
 
     public static void submitTasks(List<Runnable> tasks, Executor executor) {
-        RateLimiter limiter = RateLimiter.create(2);
+        RateLimiter limiter = RateLimiter.create(5);
         for(Runnable task : tasks) {
+            System.out.println(limiter.acquire(2));
             System.out.println(limiter.acquire(2));
             System.out.println(limiter.acquire());
             executor.execute(task);
