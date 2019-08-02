@@ -32,6 +32,7 @@
         <zkclient.version>0.11</zkclient.version>
         <quartz.version>2.2.2</quartz.version>
         <guava.version>28.0-jre</guava.version>
+        <dubbo.version>2.6.7</dubbo.version>
     </properties>
 
     <dependencies>
@@ -184,6 +185,12 @@
             <version>${jackson-databind.version}</version>
         </dependency>
 
+        <!-- RPC Dubbo -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
 
         <!-- 表现层依赖 结束 -->
 

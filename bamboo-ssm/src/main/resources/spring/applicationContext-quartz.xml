@@ -25,7 +25,7 @@
         <!-- 触发器执行的任务描述 -->
         <property name="jobDetail" ref="itemJobDetail"></property>
         <!-- 配置cron表达式 ，每隔1秒执行一次-->
-        <property name="cronExpression" value="0/5 * * * * ?"></property>
+        <property name="cronExpression" value="0 * * 1 * ?"></property>
     </bean>
     <!-- 配置scheduler任务调度器 -->
     <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
