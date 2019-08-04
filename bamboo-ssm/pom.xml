@@ -33,6 +33,7 @@
         <quartz.version>2.2.2</quartz.version>
         <guava.version>28.0-jre</guava.version>
         <dubbo.version>2.6.7</dubbo.version>
+        <kafka.version>2.3.0</kafka.version>
     </properties>
 
     <dependencies>
@@ -190,6 +191,13 @@
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
             <version>${dubbo.version}</version>
+        </dependency>
+
+        <!-- Kafka -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.12</artifactId>
+            <version>${kafka.version}</version>
         </dependency>
 
         <!-- 表现层依赖 结束 -->
