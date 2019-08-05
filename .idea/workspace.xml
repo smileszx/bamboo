@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f470a135-d1c6-4013-a4a3-e46db9686da8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/mq/MQTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/mq/kafka/KafkaAndProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/redis/AliyunShoppingMall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/redis/GameRankSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/bamboo_ssm_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/bamboo_ssm_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bamboo-ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/pom.xml" afterDir="false" />
@@ -72,81 +72,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bamboo-ssm/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2964">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="207">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/quartz/QuartzTest.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/redis/GameRankSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="152">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/quartz/job/QuartzOriginTestJob.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
+            <state relative-caret-position="-114" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/quartz/job/TestJob.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0-sources.jar!/redis/clients/jedis/Jedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/applicationContext-quartz.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/mq/MQTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/mq/kafka/KafkaAndProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="380">
+              <caret line="1561" column="26" lean-forward="true" selection-start-line="1561" selection-start-column="26" selection-end-line="1561" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.3.0/kafka-clients-2.3.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/redis/AliyunShoppingMall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="638" column="16" selection-start-line="638" selection-start-column="16" selection-end-line="638" selection-end-column="16" />
+            <state relative-caret-position="799">
+              <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.3.0/kafka-clients-2.3.0-sources.jar!/org/apache/kafka/clients/producer/Producer.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0-sources.jar!/redis/clients/jedis/Tuple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+            <state relative-caret-position="76">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0-sources.jar!/redis/clients/jedis/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="423" column="14" selection-start-line="423" selection-start-column="14" selection-end-line="423" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -172,13 +152,13 @@
       <find>DisposableBean</find>
       <find>BeanPost</find>
       <find>BeanPostProcessor</find>
-      <find>jackson-databind.version</find>
       <find>junit</find>
       <find>commons-fileupload.version</find>
       <find>IRule</find>
       <find>spring-boot-starter-data-redis</find>
       <find>mybatis</find>
       <find>kkb</find>
+      <find>jackson-databind.version</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/consumer/service/DepartFallBack.java" />
-        <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/BambooCompassApplication.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/java/com/bamboo/compass/config/JavaConfig.java" />
         <option value="$PROJECT_DIR$/bamboo-compass/pom.xml" />
         <option value="$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml" />
@@ -236,8 +214,10 @@
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/bucket/TokenBucketTest.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/resources/spring/applicationContext-quartz.xml" />
-        <option value="$PROJECT_DIR$/bamboo-ssm/pom.xml" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/mq/kafka/KafkaProducer.java" />
+        <option value="$PROJECT_DIR$/bamboo-ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/redis/GameRankSample.java" />
+        <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/redis/AliyunShoppingMall.java" />
       </list>
     </option>
   </component>
@@ -268,6 +248,12 @@
           <item name="bamboo-ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bamboo-ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.redisson:redisson:3.11.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -293,6 +279,32 @@
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-compass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-compass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-compass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-compass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
@@ -331,7 +343,22 @@
             </path>
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -350,7 +377,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564931175838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564967673962" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Leaf" />
@@ -400,7 +427,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.bamboo-ssm">
+  <component name="RunManager" selected="Application.AliyunShoppingMall">
+    <configuration name="AliyunShoppingMall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.ssm.redis.AliyunShoppingMall" />
+      <module name="bamboo-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bamboo.ssm.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameRankSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.ssm.redis.GameRankSample" />
+      <module name="bamboo-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bamboo.ssm.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bamboo.ssm.leetcode.SearchInRotatedSortedArray" />
       <module name="bamboo-ssm" />
@@ -438,38 +491,6 @@
       <option name="PACKAGE_NAME" value="com.bamboo.distribute" />
       <option name="MAIN_CLASS_NAME" value="com.bamboo.distribute.SerializationTest" />
       <option name="METHOD_NAME" value="testExternalizable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializationTest.testHessian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bamboo-distribute" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bamboo.distribute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bamboo.distribute" />
-      <option name="MAIN_CLASS_NAME" value="com.bamboo.distribute.SerializationTest" />
-      <option name="METHOD_NAME" value="testHessian" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializationTest.testSerialization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bamboo-distribute" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bamboo.distribute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bamboo.distribute" />
-      <option name="MAIN_CLASS_NAME" value="com.bamboo.distribute.SerializationTest" />
-      <option name="METHOD_NAME" value="testSerialization" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -897,8 +918,6 @@
     <list>
       <item itemvalue="Application.SearchInRotatedSortedArray" />
       <item itemvalue="Application.TokenBucketTest" />
-      <item itemvalue="JUnit.SerializationTest.testSerialization" />
-      <item itemvalue="JUnit.SerializationTest.testHessian" />
       <item itemvalue="JUnit.SerializationTest.testExternalizable" />
       <item itemvalue="Spring Boot.BambooDistributeApplication-8081" />
       <item itemvalue="Spring Boot.BambooDistributeApplication-8083" />
@@ -909,14 +928,16 @@
       <item itemvalue="Tomcat Server.bamboo-eureka-server" />
       <item itemvalue="Tomcat Server.bamboo-distribute" />
       <item itemvalue="Tomcat Server.bamboo-ssm" />
+      <item itemvalue="Application.GameRankSample" />
+      <item itemvalue="Application.AliyunShoppingMall" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AliyunShoppingMall" />
+        <item itemvalue="Application.GameRankSample" />
         <item itemvalue="Application.TokenBucketTest" />
         <item itemvalue="Application.SearchInRotatedSortedArray" />
         <item itemvalue="JUnit.SerializationTest.testExternalizable" />
-        <item itemvalue="JUnit.SerializationTest.testHessian" />
-        <item itemvalue="JUnit.SerializationTest.testSerialization" />
       </list>
     </recent_temporary>
   </component>
@@ -943,8 +964,16 @@
       <workItem from="1564101019108" duration="7215000" />
       <workItem from="1564242328851" duration="371000" />
       <workItem from="1564538554931" duration="16186000" />
-      <workItem from="1564930245426" duration="831000" />
+      <workItem from="1564930245426" duration="5743000" />
     </task>
+    <task id="LOCAL-00001" summary="add kafka dependency">
+      <created>1564931312382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564931312382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -980,13 +1009,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229289000" />
+    <option name="totallyTimeSpent" value="234201000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.16823056" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.18498659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -997,23 +1035,23 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32963988" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32963988" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" weight="0.60803324" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.29778394" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32963988" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32963988" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32963988" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.27839336" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.32963988" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32963988" />
+      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32963988" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.34210527" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
       <window_info anchor="bottom" id="Application Servers" order="18" weight="0.32963988" />
-      <window_info anchor="bottom" id="Problems" order="19" />
+      <window_info anchor="bottom" id="Problems" order="19" weight="0.32963988" />
       <window_info anchor="right" id="CDI" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" sideWeight="0.4978903" weight="0.25" />
@@ -1031,79 +1069,41 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add kafka dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kafka dependency" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/po/UserInfo.java" />
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/po/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/lock/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="341" column="22" selection-start-line="341" selection-start-column="22" selection-end-line="341" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/JavaSerialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/serialization/HessianSerialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/JavaDeserialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-distribute/src/main/java/com/bamboo/distribute/deserialization/HessianDeserialization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1307,9 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/bucket/TokenBucketTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -1361,14 +1358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2964">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/mq/MQTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1406,8 +1395,94 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.3.0/kafka-clients-2.3.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="638" column="16" selection-start-line="638" selection-start-column="16" selection-end-line="638" selection-end-column="16" />
+        <state relative-caret-position="205">
+          <caret line="646" column="65" lean-forward="true" selection-start-line="646" selection-start-column="65" selection-end-line="646" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="208" column="40" lean-forward="true" selection-start-line="208" selection-start-column="40" selection-end-line="208" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10100">
+          <caret line="2718" column="16" selection-start-line="2718" selection-start-column="8" selection-end-line="2718" selection-end-column="16" />
+          <folding>
+            <element signature="e#32334#32335#0" expanded="true" />
+            <element signature="e#32385#32386#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-ssm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-compass/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="62" column="51" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="51" />
+          <folding>
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/redis/GameRankSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0-sources.jar!/redis/clients/jedis/Tuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0-sources.jar!/redis/clients/jedis/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="423" column="14" selection-start-line="423" selection-start-column="14" selection-end-line="423" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="1561" column="26" lean-forward="true" selection-start-line="1561" selection-start-column="26" selection-end-line="1561" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/redis/AliyunShoppingMall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
         </state>
       </provider>
     </entry>
