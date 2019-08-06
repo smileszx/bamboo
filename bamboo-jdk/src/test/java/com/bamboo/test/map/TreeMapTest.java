@@ -2,9 +2,7 @@ package com.bamboo.test.map;
 
 import org.junit.Test;
 
-import java.util.Comparator;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * @Description
@@ -53,5 +51,11 @@ public class TreeMapTest {
 
     }
 
+    @Test
+    public void testConcurrentEnvTreeMap () {
+        SortedMap<Integer, String> unsyncMap = new TreeMap<Integer, String>();
+
+        SortedMap<Integer, String> safesyncMap = Collections.synchronizedSortedMap(unsyncMap);
+    }
 
 }
