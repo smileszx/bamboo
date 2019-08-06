@@ -9,14 +9,11 @@
         <module name="bamboo-compass" />
         <module name="bamboo-distribute" />
         <module name="bamboo-eureka-server" />
+        <module name="bamboo-jdk" />
         <module name="bamboo-ssm" />
         <module name="bamboo-zuul" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="bamboo-common" target="1.5" />
-      <module name="bamboo-spider" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

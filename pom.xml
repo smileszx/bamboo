@@ -12,5 +12,6 @@
         <module>bamboo-compass</module>
         <module>bamboo-ssm</module>
         <module>bamboo-eureka-server</module>
+        <module>bamboo-jdk</module>
     </modules>
 </project>
