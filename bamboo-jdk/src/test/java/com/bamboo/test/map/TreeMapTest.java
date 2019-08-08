@@ -58,4 +58,17 @@ public class TreeMapTest {
         SortedMap<Integer, String> safesyncMap = Collections.synchronizedSortedMap(unsyncMap);
     }
 
+    @Test
+    public void testTreeMapNPE () {
+        Map<Integer, Integer> map = new TreeMap<>();
+
+        //key值需要参与比较，因此无法为null
+//        map.put(null, null);
+
+        map.put(1, null);
+        map.put(2, null);
+
+        System.out.println(map);
+
+    }
 }
