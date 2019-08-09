@@ -14,7 +14,7 @@ import java.util.List;
  * @Author victor su
  * @Date 2019/8/8 21:44
  **/
-public class ReverseListNode {
+public class LeetCode206_ReverseListNode {
 
     public static void main(String[] args) {
 
