@@ -38,16 +38,15 @@ public class LeetCode237_DeleteListNode {
          *  - 不要从你的函数中返回任何结果。
          */
 
-        ListNode head = new ListNode(4);
-        head.next = new ListNode(5);
-        head.next.next = new ListNode(1);
-        head.next.next.next = new ListNode(9);
-        head.next.next.next.next = null;
-
-        System.out.println("初始化ListNode: " + traverseListNode(head));
+        ListNode head = null;
+        int[] arr = {13, 14, 9, 14, 13, 520};
+        for (int i= 0; i<arr.length; i++) {
+            head = ListNodeUtil.add(head, arr[i]);
+        }
+        System.out.println("初始化ListNode: " + ListNodeUtil.traverseListNode(head));
         ListNode target = new ListNode(9);
         deleteListNode(head, target);
-        System.out.printf("删除节点[%d]后：" + traverseListNode(head), target.val);
+        System.out.printf("删除节点[%d]后：" + ListNodeUtil.traverseListNode(head), target.val);
     }
 
 
@@ -77,31 +76,4 @@ public class LeetCode237_DeleteListNode {
 //        node.next = node.next.next;
     }
 
-    /**
-     * 自定义遍历打印单链表节点
-     * @param head
-     * @return
-     */
-    private static String traverseListNode(ListNode head) {
-        StringBuilder str = new StringBuilder();
-        while (head != null) {
-            str.append(head.val + "->");
-            head = head.next;
-        }
-        str.append("null");
-        return str.toString();
-    }
-
-    /**
-     * 定义单链表节点
-     */
-    static class ListNode {
-        int val;
-        //单链表特点，每个节点中只包含指向后继节点的引用
-        ListNode next;
-
-        ListNode(int x) {
-            this.val = x;
-        }
-    }
 }

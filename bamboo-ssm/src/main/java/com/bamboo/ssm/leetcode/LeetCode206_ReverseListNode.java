@@ -59,6 +59,7 @@ public class LeetCode206_ReverseListNode {
         if (head == null || head.next == null)
             return head;
 
+        //前驱和后继是针对待反转节点反转之前而言
         ListNode preNode = null;
         ListNode nextNode = null;
 
