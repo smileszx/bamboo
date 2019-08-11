@@ -35,6 +35,12 @@ public class LeetCode347_TopKFrequent {
        System.out.println(topKFrequentByBuket(nums, k));
     }
 
+    /**
+     * 大顶堆方式
+     * @param nums
+     * @param k
+     * @return
+     */
     public static List<Integer> topKFrequent(int[] nums, int k) {
 
         // 使用字典，统计每个元素出现的次数，元素为键，元素出现的次数为值
@@ -74,6 +80,12 @@ public class LeetCode347_TopKFrequent {
     }
 
 
+    /**
+     * 计数法统计，桶排序的特殊情况
+     * @param nums
+     * @param k
+     * @return
+     */
     public static List<Integer> topKFrequentByBuket(int[] nums, int k) {
         List<Integer> res = new ArrayList();
         // 使用字典，统计每个元素出现的次数，元素为键，元素出现的次数为值
