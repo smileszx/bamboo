@@ -32,12 +32,12 @@ public class AOPTest {
     @Autowired
     private DefaultEncoreable encoreable;
 
-    @Test
+//    @Test
     public void testPerformance () {
         performance.perform();
     }
 
-    @Test
+//    @Test
     public void testTrackCounter() {
 
         performance.recordOrder(1);
@@ -59,8 +59,9 @@ public class AOPTest {
 
     }
 
-    @Test
+//    @Test
     public void testEncore(){
+        Object object = new Object();
         performance.perform();
         ((Encoreable) performance).performEncore();
     }

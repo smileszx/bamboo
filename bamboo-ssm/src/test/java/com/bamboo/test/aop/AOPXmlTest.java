@@ -26,7 +26,7 @@ public class AOPXmlTest {
         ((CrossTalk) performance).play();
     }
 
-    @Test
+//    @Test
     public void testCriticism () {
         performance.perform();
     }

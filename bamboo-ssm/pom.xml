@@ -107,11 +107,11 @@
             <version>${mybatis-spring.version}</version>
         </dependency>
         <!-- mybatis逆向工程 -->
-        <dependency>
-            <groupId>org.mybatis.generator</groupId>
-            <artifactId>mybatis-generator</artifactId>
-            <version>${mybatis-generator.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.mybatis.generator</groupId>-->
+            <!--<artifactId>mybatis-generator</artifactId>-->
+            <!--<version>${mybatis-generator.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.mybatis.generator</groupId>
             <artifactId>mybatis-generator-maven-plugin</artifactId>

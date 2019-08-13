@@ -24,12 +24,12 @@ public class BeansTest {
     @Autowired
     private DBConfig dbConfig;
 
-    @Test
+//    @Test
     public void test () {
         panda.eat();
     }
 
-    @Test
+//    @Test
     public void testDB () {
         dbConfig.getProperties();
     }

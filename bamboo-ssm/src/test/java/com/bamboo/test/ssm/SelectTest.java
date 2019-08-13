@@ -23,7 +23,7 @@ public class SelectTest {
     @Autowired
     private ItemService itemService;
 
-    @Test
+//    @Test
     public void testSelect() {
         List<Item> list = itemService.queryItemList();
 

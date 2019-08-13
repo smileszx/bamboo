@@ -23,7 +23,7 @@ public class XmlContexTest {
     @Resource
     private Animal rabbit;
 
-    @Test
+//    @Test
     public void tigerTest() {
         //Animal是接口,Rabbit 和 Tiger 是Animal的实现类，
         //如果注入时采用Animal接口，那么不能用byType方式注入，
