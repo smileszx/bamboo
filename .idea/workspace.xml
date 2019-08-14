@@ -7,87 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f470a135-d1c6-4013-a4a3-e46db9686da8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/PalindromePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/sort/QuitSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/creation_builder/BuilderOneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/creation_builder/builder_one/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/creation_builder/builder_one/ConcreteBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/creation_builder/builder_one/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/creation_builder/builder_one/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/DecoratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/ForwardingSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/InstrumentedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/decorator_one/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/decorator_one/ComponentImplA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/decorator_one/ConcreteDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/decorator_one/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/bamboo_ssm_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/bamboo_ssm_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/SnowFlakeIdGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/target/bamboo-compass-2.1.6.RELEASE/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/target/bamboo-compass-2.1.6.RELEASE/WEB-INF/classes/META-INF/bamboo-compass.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-compass/target/bamboo-compass-2.1.6.RELEASE/WEB-INF/classes/applocation.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-eureka-server/target/bamboo-eureka-server-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-eureka-server/target/bamboo-eureka-server-0.0.1-SNAPSHOT/WEB-INF/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-jdk/target/test-classes/META-INF/bamboo-jdk.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/FibonacciRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/FibonacciRecursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode141_HasCycleListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode141_HasCycleListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode146_LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode146_LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode19_RemoveNthNodeFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode19_RemoveNthNodeFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode206_ReverseListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode206_ReverseListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode21_MergeTwoListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode21_MergeTwoListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode234_CheckPalindromeListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode234_CheckPalindromeListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode237_DeleteListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode237_DeleteListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode287_FindDuplicateNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode287_FindDuplicateNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode344_ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode344_ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode347_TopKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode347_TopKFrequent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode3_LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode3_LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode81_SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode81_SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode83_DeleteDuplicateListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode83_DeleteDuplicateListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode876_MiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode876_MiddleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/ListNodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/ListNodeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/sort/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/sort/BucketSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/mysql/seckill.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/mysql/seckill.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/mysql/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/main/resources/mysql/user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/aop/AOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/aop/AOPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/aop/AOPXmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/aop/AOPXmlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/beans/BeansTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/beans/BeansTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/beans/XmlContexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/beans/XmlContexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/ssm/SaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/ssm/SaveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/ssm/SelectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/ssm/SelectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/META-INF/bamboo-ssm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/mapper/ItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/mysql/bamboo.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/mysql/seckill.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/mysql/user.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-quartz.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/java-bean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/jsp/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/parameter_bind.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/bamboo-ssm-1.0-SNAPSHOT/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/classes/mysql/seckill.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/classes/mysql/seckill.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/classes/mysql/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/classes/mysql/user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/TEST-com.bamboo.test.aop.AOPTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/TEST-com.bamboo.test.aop.AOPTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/TEST-com.bamboo.test.aop.AOPXmlTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/TEST-com.bamboo.test.aop.AOPXmlTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/TEST-com.bamboo.test.beans.BeansTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/TEST-com.bamboo.test.beans.BeansTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/TEST-com.bamboo.test.beans.XmlContexTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/TEST-com.bamboo.test.beans.XmlContexTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/com.bamboo.test.aop.AOPTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/com.bamboo.test.aop.AOPTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/com.bamboo.test.aop.AOPXmlTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/com.bamboo.test.aop.AOPXmlTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/com.bamboo.test.beans.BeansTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/com.bamboo.test.beans.BeansTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/com.bamboo.test.beans.XmlContexTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/surefire-reports/com.bamboo.test.beans.XmlContexTest.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -198,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/DecoratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="64">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,19 +181,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/InstrumentedSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/SnowFlakeIdGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/resources/mysql/user.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="27" column="86" lean-forward="true" selection-start-line="22" selection-end-line="27" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -321,8 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/Singleton.java" />
-        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/SingletonTest.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/ReverseListNode.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/Leetcode206_ReverseListNode.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/SearchInRotatedSortedArray.java" />
@@ -370,8 +307,10 @@
         <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/ComponentImplA.java" />
         <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/decorator_one/ComponentImplA.java" />
         <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/ForwardingSet.java" />
-        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/InstrumentedSet.java" />
         <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/DecoratorTest.java" />
+        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/InstrumentedSet.java" />
+        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/SnowFlake.java" />
+        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/SnowFlakeIdGenerator.java" />
       </list>
     </option>
   </component>
@@ -407,10 +346,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
-    <option name="y" value="367" />
+    <option name="x" value="-13" />
+    <option name="y" value="542" />
     <option name="width" value="1943" />
-    <option name="height" value="805" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -432,58 +371,37 @@
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-jdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboo-ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bamboo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bamboo" type="462c0819:PsiDirectoryNode" />
-              <item name="bamboo-jdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="structure_decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -501,7 +419,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565710280971" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565790488074" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mq/rocketmq" />
@@ -554,7 +472,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DecoratorTest">
+  <component name="RunManager" selected="Application.SnowFlakeIdGenerator">
     <configuration name="BuilderOneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bamboo.jdk.pattern.creation_builder.BuilderOneTest" />
       <module name="bamboo-jdk" />
@@ -587,6 +505,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bamboo.jdk.leetcode.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowFlakeIdGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.jdk.leetcode.SnowFlakeIdGenerator" />
+      <module name="bamboo-jdk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bamboo.jdk.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1034,9 +965,11 @@
       <item itemvalue="Tomcat Server.bamboo-ssm" />
       <item itemvalue="Application.BuilderOneTest" />
       <item itemvalue="Application.DecoratorTest" />
+      <item itemvalue="Application.SnowFlakeIdGenerator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SnowFlakeIdGenerator" />
         <item itemvalue="Application.DecoratorTest" />
         <item itemvalue="Application.BuilderOneTest" />
         <item itemvalue="Application.QuitSort" />
@@ -1070,7 +1003,7 @@
       <workItem from="1565155306326" duration="24131000" />
       <workItem from="1565307386748" duration="101022000" />
       <workItem from="1565620469198" duration="8320000" />
-      <workItem from="1565659550560" duration="9531000" />
+      <workItem from="1565659550560" duration="14227000" />
     </task>
     <task id="LOCAL-00001" summary="add kafka dependency">
       <created>1564931312382</created>
@@ -1122,7 +1055,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404681000" />
+    <option name="totallyTimeSpent" value="409377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1148,7 +1081,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32963988" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32963988" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" weight="0.25623268" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.25623268" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3487395" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1282,8 +1215,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode3_LengthOfLongestSubstring.java" />
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode287_FindDuplicateNum.java" />
     <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/TreeNode.java" />
     <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/PalindromePrint.java" />
     <entry file="file://$PROJECT_DIR$/bamboo-ssm/pom.xml">
@@ -1673,16 +1604,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/InstrumentedSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
             <element signature="e#595#596#0" expanded="true" />
           </folding>
@@ -1691,11 +1618,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/structure_decorator/DecoratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="64">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/SnowFlakeIdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/resources/mysql/user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="86" lean-forward="true" selection-start-line="22" selection-end-line="27" selection-end-column="86" />
         </state>
       </provider>
     </entry>

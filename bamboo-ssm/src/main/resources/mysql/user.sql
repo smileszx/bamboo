@@ -1,32 +1,30 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : 本地测试数据库
+ Source Server         : centos7-I
  Source Server Type    : MySQL
- Source Server Version : 50724
- Source Host           : localhost:3306
- Source Schema         : bamboo
+ Source Server Version : 50725
+ Source Host           : 192.168.1.101:3306
+ Source Schema         : dn1
 
  Target Server Type    : MySQL
- Target Server Version : 50724
+ Target Server Version : 50725
  File Encoding         : 65001
 
- Date: 19/07/2019 19:44:21
+ Date: 14/08/2019 21:47:35
 */
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure_decorator for user
+-- Table structure for user
 -- ----------------------------
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user`  (
-  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键id',
-  `username` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户名',
-  `address` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户地址',
-  `ts` timestamp(0) NOT NULL ON UPDATE CURRENT_TIMESTAMP(0) COMMENT '时间戳',
+  `id` int(11) NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 SET FOREIGN_KEY_CHECKS = 1;
