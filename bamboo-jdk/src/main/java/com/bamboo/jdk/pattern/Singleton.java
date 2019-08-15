@@ -2,6 +2,9 @@ package com.bamboo.jdk.pattern;
 
 public class Singleton
 {
+
+//    private static Singleton singleton = new Singleton();
+
     private Singleton(){}
     
     static {

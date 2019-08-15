@@ -17,17 +17,20 @@ public class SingletonTest
     // 而且其加载过程是线程安全的（实现线程安全）。内部类加载的时候只实例化了一次instance
     public static void main(String[] args)
     {
+
+//        Singleton singleton = new Singleton();
+
         MyThread th1 = new MyThread();
         MyThread th2 = new MyThread();
         MyThread th3 = new MyThread();
         /*@1*/
-        th1.start();
-        th2.start();
-        th3.start();
+//        th1.start();
+//        th2.start();
+//        th3.start();
 
         
-        /*@2
+        /*@2 */
         Singleton.display();
-        */
+
     }
 }
