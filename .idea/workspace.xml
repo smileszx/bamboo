@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f470a135-d1c6-4013-a4a3-e46db9686da8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode94_InorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/LambdaCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/LambdaExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bamboo-ssm/target/classes/mysql/user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bamboo-ssm/target/classes/mysql/user.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,41 +68,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/SingletonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode94_InorderTraversal.java">
+        <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/LambdaExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+            <state relative-caret-position="874">
+              <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#626#643#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/TreeNode.java">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/event/ActionListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="259">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/event/ActionEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-385">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/LambdaCommon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Predicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -154,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode206_ReverseListNode.java" />
-        <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/ListNode.java" />
-        <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode234_CheckPalindromeListNode.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/ListNodeUtil.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode237_DeleteListNode.java" />
         <option value="$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/leetcode/LeetCode876_MiddleNode.java" />
@@ -205,6 +214,9 @@
         <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/SingletonTest.java" />
         <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode94_.java" />
         <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode94_InorderTraversal.java" />
+        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/Lam.java" />
+        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/LambdaCommon.java" />
+        <option value="$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/LambdaExpression.java" />
       </list>
     </option>
   </component>
@@ -240,10 +252,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="561" />
+    <option name="x" value="-10" />
+    <option name="y" value="330" />
     <option name="width" value="1943" />
-    <option name="height" value="778" />
+    <option name="height" value="779" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -303,7 +315,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jdk" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,10 +335,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565867554329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565969281825" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mq/rocketmq" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -376,13 +388,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode94_InorderTraversal">
-    <configuration name="BuilderOneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bamboo.jdk.pattern.creation_builder.BuilderOneTest" />
+  <component name="RunManager" selected="Application.LambdaExpression">
+    <configuration name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.jdk.pattern.structure_decorator.DecoratorTest" />
       <module name="bamboo-jdk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bamboo.jdk.pattern.creation_builder.*" />
+          <option name="PATTERN" value="com.bamboo.jdk.pattern.structure_decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,12 +402,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bamboo.jdk.pattern.structure_decorator.DecoratorTest" />
+    <configuration name="LambdaExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bamboo.jdk.lambda.LambdaExpression" />
       <module name="bamboo-jdk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bamboo.jdk.pattern.structure_decorator.*" />
+          <option name="PATTERN" value="com.bamboo.jdk.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -869,9 +881,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BuilderOneTest" />
       <item itemvalue="Application.DecoratorTest" />
       <item itemvalue="Application.SnowFlakeIdGenerator" />
+      <item itemvalue="Application.SingletonTest" />
+      <item itemvalue="Application.LeetCode94_InorderTraversal" />
       <item itemvalue="Spring Boot.BambooDistributeApplication-8081" />
       <item itemvalue="Spring Boot.BambooDistributeApplication-8083" />
       <item itemvalue="Spring Boot.BambooDistributeApplication-8082" />
@@ -882,16 +895,15 @@
       <item itemvalue="Tomcat Server.bamboo-eureka-server" />
       <item itemvalue="Tomcat Server.bamboo-distribute" />
       <item itemvalue="Tomcat Server.bamboo-ssm" />
-      <item itemvalue="Application.SingletonTest" />
-      <item itemvalue="Application.LeetCode94_InorderTraversal" />
+      <item itemvalue="Application.LambdaExpression" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaExpression" />
         <item itemvalue="Application.LeetCode94_InorderTraversal" />
         <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.SnowFlakeIdGenerator" />
         <item itemvalue="Application.DecoratorTest" />
-        <item itemvalue="Application.BuilderOneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -924,6 +936,7 @@
       <workItem from="1565620469198" duration="8320000" />
       <workItem from="1565659550560" duration="14859000" />
       <workItem from="1565832880102" duration="4007000" />
+      <workItem from="1565962838180" duration="5516000" />
     </task>
     <task id="LOCAL-00001" summary="add kafka dependency">
       <created>1564931312382</created>
@@ -982,7 +995,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414016000" />
+    <option name="totallyTimeSpent" value="419532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,7 +1010,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.20978552" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.2124665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1008,7 +1021,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32963988" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.3504155" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49865952" visible="true" weight="0.22437674" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3487395" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1017,7 +1030,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2299169" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.27839336" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.22160664" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.34261242" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32963988" />
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32963988" />
@@ -1143,41 +1156,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/beans/BeansTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/ssm/SaveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/ssm/SelectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/test/java/com/bamboo/test/aop/AOPXmlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/aop/advice/AudienceAround.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-ssm/src/main/java/com/bamboo/ssm/aop/advice/CriticAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1518,17 +1496,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/SingletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="418">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/SingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/pattern/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="380">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1541,10 +1519,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/leetcode/LeetCode94_InorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="483">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/event/ActionEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/LambdaCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo-jdk/src/main/java/com/bamboo/jdk/lambda/LambdaExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#626#643#0" expanded="true" />
           </folding>
         </state>
       </provider>
