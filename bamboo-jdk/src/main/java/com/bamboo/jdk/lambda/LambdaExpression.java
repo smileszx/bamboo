@@ -1,8 +1,11 @@
 package com.bamboo.jdk.lambda;
 
+import org.apache.commons.lang3.time.FastDateFormat;
+
+import javax.swing.text.DateFormatter;
 import java.awt.event.ActionListener;
-import java.util.HashMap;
-import java.util.Map;
+import java.text.SimpleDateFormat;
+import java.util.*;
 import java.util.function.BinaryOperator;
 import java.util.function.Predicate;
 
@@ -14,11 +17,18 @@ import java.util.function.Predicate;
  * @Author victor su
  * @Date 2019/8/16 21:49
  **/
-public class LambdaExpression {
+public class LambdaExpression{
+    //Java 8 为该类新加了一个工厂方法， 接受一个 Lambda 表达式， 并产生
+    //一个新的 ThreadLocal 对象， 而不用使用继承， 语法上更加简洁。
+    public final static ThreadLocal<DateFormatter> formatter = ThreadLocal.withInitial(() -> new DateFormatter(new SimpleDateFormat("dd-MMM-yyyy")));
+
 
     public static void main(String[] args) {
 
-        testLamdaFunctionalInterface();
+        FastDateFormat format = FastDateFormat.getInstance("yyyy-MM-dd");
+
+        System.out.println(format.format(new Date()));
+
     }
 
 
