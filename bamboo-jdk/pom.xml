@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jdk</artifactId>
+    <artifactId>bamboo-jdk</artifactId>
     <packaging>war</packaging>
 
     <name>jdk Maven Webapp</name>
