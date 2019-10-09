@@ -6,7 +6,8 @@ import com.bamboo.jdk.pattern.creation_builder.builder_one.Director;
 import com.bamboo.jdk.pattern.creation_builder.builder_one.Product;
 
 /**
- * @Description TODO
+ * @Description
+ * 建造者测试客户端
  * @Author victor su
  * @Date 2019/8/13 9:41
  **/

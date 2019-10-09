@@ -1,7 +1,8 @@
 package com.bamboo.jdk.pattern.creation_builder.builder_one;
 
 /**
- * @Description TODO
+ * @Description
+ * 模拟产品类
  * @Author victor su
  * @Date 2019/8/13 9:29
  **/
