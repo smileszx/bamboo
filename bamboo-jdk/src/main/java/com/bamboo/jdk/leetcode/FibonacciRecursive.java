@@ -17,12 +17,13 @@ public class FibonacciRecursive {
 
     public static void main(String[] args) {
         long origin_start = System.currentTimeMillis();
-        int result = fibonacciRecursiveOrigin(42);
+        int result = fibonacciRecursiveOrigin(40);
         long origin_end = System.currentTimeMillis();
         System.out.println(String.join("_", "原生计算次数: " + optimize, "计算结果: " + result, "计算耗时: " + (origin_end-origin_start) +"ms"));
 
         long opt_start = System.currentTimeMillis();
-        int opt = fibonacciRecursive(42);
+        int opt = fibonacci(Integer.MAX_VALUE / 2);
+        System.out.println(Integer.MAX_VALUE);
         long opt_end = System.currentTimeMillis();
         System.out.println(String.join("_", "优化后计算次数: " + invoke, "计算结果: " + opt, "计算耗时: " + (opt_end-opt_start) +"ms"));
     }
@@ -64,5 +65,25 @@ public class FibonacciRecursive {
         }
     }
 
+    /**
+     * 斐波那契数列
+     * https://blog.csdn.net/gaoyueace/article/details/88708953
+     * @param n
+     * @return
+     */
+    public static int fibonacci(int n) {
+        if(n <= 1)
+            return n;
+
+        int f0 = 0;
+        int f1 = 1;
+        int f2 = 1;
+        for(int i = 2; i <= n; i++){
+            f2 = f0 + f1;
+            f0 = f1;
+            f1 = f2;
+        }
+        return f2;
+    }
 
 }
