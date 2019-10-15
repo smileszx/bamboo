@@ -1,22 +1,47 @@
 package com.bamboo.jdk.generic;
 
+import java.util.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Stack;
 
 /**
- * @Description TODO
+ * @Description
+ * PECS原则
+ * - 频繁往外读取内容的，适合用上界Extends。
+ * - 经常往里插入的，适合用下界Super。
+ * https://www.cnblogs.com/drizzlewithwind/p/6100164.html
  * @Author victor su
  * @Date 2019/8/17 11:55
  **/
 public class GenericTest {
 
     public static void main(String[] args) {
-        testGeneric();
+        testExtends();
     }
 
+    public static void testExtends () {
+        Zoo<? extends Hashiqi> zooArr = new Zoo<>(new Hashiqi());
 
+//        zooArr.setItem(new Animal());
+
+        Animal item = zooArr.getItem();
+        System.out.println(item);
+    }
+
+    public static void testSuper () {
+        Zoo<? super Dog> zooArr = new Zoo<>();
+
+        zooArr.setItem(new Dog());
+        // 下界通配符不影响，set数据，影响get
+//        zooArr.setItem(new Animal());
+        zooArr.setItem(new Hashiqi());
+
+
+        Dog dog = (Dog) zooArr.getItem();
+        System.out.println(dog);
+
+
+    }
 
     public static void testGeneric() {
 
