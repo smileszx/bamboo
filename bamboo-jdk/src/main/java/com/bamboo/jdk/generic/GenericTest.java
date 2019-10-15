@@ -1,5 +1,6 @@
 package com.bamboo.jdk.generic;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,7 @@ import java.util.List;
 public class GenericTest {
 
     public static void main(String[] args) {
-        testExtends();
+        testAfterErase();
     }
 
     public static void testExtends () {
@@ -80,5 +81,38 @@ public class GenericTest {
 
     }
 
+    /**
+     * 初始化定义泛型，运行期泛型被擦除，JVM中只保留List原始类型
+     * https://www.cnblogs.com/wuqinglong/p/9456193.html
+     */
+    public static void testTypeErase() {
+        ArrayList<String> list1 = new ArrayList<String>();
+        list1.add("abc");
+
+        ArrayList<Integer> list2 = new ArrayList<Integer>();
+        list2.add(123);
+
+        System.out.println(list1.getClass() == list2.getClass());
+    }
+
+    public static void testAfterErase () {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+
+        list.add(1);  //这样调用 add 方法只能存储整形，因为泛型类型的实例为 Integer
+
+        try {
+            list.getClass().getMethod("add", Object.class).invoke(list, "asd");
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+    }
 
 }
