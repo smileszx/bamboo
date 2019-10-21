@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<!-- 加载jdbc.properties,并且替换BeanDefinition中的属性中的占位符 -->
+	<context:property-placeholder location="classpath:jdbc.properties" />
+
+	<!-- 配置数据源, 数据库连接池选择dbcp2，引入jdbc.properties，方便使用配置信息，必须要用${}形式调用 -->
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="maxTotal" value="30" />
+		<property name="maxIdle" value="5" />
+	</bean>
+
+	<!-- 配置SqlSessionFacotory -->
+	<!--
+    配置mybatis整合开发
+    Mybatis首先要有一个数据源，所以我们就将刚刚配置的连接池注入进来
+    然后还需要mapper.xml文件的路径，之前学Mybatis的时候都是手动创建**.xml文件，然后用接口去映射，
+    好消息是mybatis能够帮助我们根据数据库逆向生成这个文件及接口，极大的方便了我们的开发
+    最后就是mybatis的配置文件，我们会在后面看到
+    -->
+	<bean id="sqlSessionFactory"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- 加载mybatis的配置文件（如果配置文件中没有配置项，可以忽略该文件） -->
+		<property name="configLocation" value="classpath:mybatis-config.xml" />
+		<property name="mapperLocations" value="classpath*:mapper/*.xml"/>
+		<!-- 配置数据源 -->
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!--
+    配置SqlSession
+    sqlsession的作用就是sql会话，没有这个mybatis就无法真正作用起来，如果你学过mybatis一定知道这个配置的意义，
+    将sqlSessionFactory注入到其中，至于下面那个参数，暂时先不用理解
+    -->
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
+		<constructor-arg name="executorType" value="BATCH"/>
+	</bean>
+
+	<!-- 配置mapper扫描器，SqlSessionConfig.xml中的mapper配置去掉 -->
+	<!--
+     将dao接口实现放入到IOC容器中，由于我们还没有配置mapper的接口文件，
+     所以需要将接口实现文件放入到IOC中，注入的时候就能够直接使用
+ 	-->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- 指定扫描的包 -->
+		<property name="basePackage" value="com.bamboo.ssm.dao" />
+	</bean>
+</beans>

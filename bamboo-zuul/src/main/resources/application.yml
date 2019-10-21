@@ -1,0 +1,15 @@
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.160:8761/eureka-server/eureka,http://192.168.1.161:8761/eureka-server/eureka
+
+spring:
+  application:
+    name: bamboo-zuul
+
+zuul:
+  routes:
+    bamboo-consumer: /bamboo8080/**
+  ignored-services: "*"
