@@ -19,11 +19,22 @@ spring:
       ddl-auto: none
 
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///coffeebaby?useUnicode=true&characterEncoding=UTF-8
-    username: root
-    password: root
+    druid:
+      master:
+        url: jdbc:mysql://192.168.1.160:3306/coffeebaby?useUnicode=true&characterEncoding=UTF-8
+        username: root
+        password: MyNewPass4!
+      slave:
+        url: jdbc:mysql://192.168.1.161:3306/coffeebaby?useUnicode=true&characterEncoding=UTF-8
+        username: root
+        password: MyNewPass4!
+
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql:///coffeebaby?useUnicode=true&characterEncoding=UTF-8
+#    username: root
+#    password: root
 logging:
   pattern:
     console: level-%level %msg%n
