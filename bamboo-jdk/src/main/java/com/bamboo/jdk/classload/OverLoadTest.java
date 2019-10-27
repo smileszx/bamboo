@@ -13,6 +13,7 @@ public class OverLoadTest {
     }
 
     public static Integer test (Integer value, Integer key) {
+        OverLoadTest overLoadTest;
         return value;
     }
 
