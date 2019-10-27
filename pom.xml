@@ -15,6 +15,7 @@
         <module>bamboo-eureka-server</module>
         <module>bamboo-jdk</module>
         <module>bamboo-zuul</module>
+        <module>bamboo-brain</module>
     </modules>
 
     <!-- 依赖版本统一管理 -->
@@ -24,6 +25,7 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+        <elastic-job.version>2.1.5</elastic-job.version>
     </properties>
     <!-- Maven 依赖管理 -->
     <dependencyManagement>
@@ -46,6 +48,27 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!--分布式定时任务管理-->
+            <!-- 引入elastic-job-lite核心模块 -->
+            <dependency>
+                <groupId>io.elasticjob</groupId>
+                <artifactId>elastic-job-lite-core</artifactId>
+                <version>${elastic-job.version}</version>
+            </dependency>
+
+            <!-- 使用springframework自定义命名空间时引入 -->
+            <dependency>
+                <groupId>io.elasticjob</groupId>
+                <artifactId>elastic-job-lite-spring</artifactId>
+                <version>${elastic-job.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.dangdang</groupId>
+                <artifactId>elastic-job-common-core</artifactId>
+                <version>${elastic-job.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
