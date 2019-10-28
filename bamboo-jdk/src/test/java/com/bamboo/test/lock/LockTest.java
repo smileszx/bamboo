@@ -1,6 +1,6 @@
 package com.bamboo.test.lock;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

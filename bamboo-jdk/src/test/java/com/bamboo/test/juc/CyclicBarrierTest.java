@@ -1,7 +1,7 @@
 package com.bamboo.test.juc;
 
 import com.bamboo.test.TestUtil;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;
