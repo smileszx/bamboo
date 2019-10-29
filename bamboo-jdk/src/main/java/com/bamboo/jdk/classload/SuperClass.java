@@ -1,5 +1,8 @@
 package com.bamboo.jdk.classload;
 
+import javax.imageio.ImageReader;
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * @Description
  * 模拟父类
@@ -35,6 +38,10 @@ public class SuperClass {
 
     public void testA () {
         System.out.println("this is a normal method.");
+    }
+
+    public Number returnNumberClazz () {
+        return new AtomicInteger();
     }
 
     public static void testB () {
