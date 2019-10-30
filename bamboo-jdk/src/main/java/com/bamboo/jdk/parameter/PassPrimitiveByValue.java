@@ -86,6 +86,14 @@ public class PassPrimitiveByValue {
         p = 10;
     }
 
+    /**
+     * final修饰的基本类型形参，不允许被修改，否则编译错误
+     * @param key
+     */
+    public static void passMethodWithFinalVariable (final int key) {
+       // key = 10; //无法编译通过
+    }
+
     public static void moveCircle(Circle circle, int deltaX, int deltaY) {
         // code to move origin of circle to x+deltaX, y+deltaY
         circle.setX(circle.getX() + deltaX);
@@ -93,6 +101,23 @@ public class PassPrimitiveByValue {
 
         // code to assign a new reference to circle
         circle = new Circle(0, 0);
+
+        System.out.println("circle: x= " + circle.getX() + ", y= " + circle.getY());
+    }
+
+    /**
+     * final修饰的引用类型参数，不能修改引用，但可以修改引用对象内部的属性；
+     * @param circle
+     * @param deltaX
+     * @param deltaY
+     */
+    public static void moveCircleWithFinal(final Circle circle, int deltaX, int deltaY) {
+        // code to move origin of circle to x+deltaX, y+deltaY
+        circle.setX(circle.getX() + deltaX);
+        circle.setY(circle.getY() + deltaY);
+
+        // code to assign a new reference to circle
+        // circle = new Circle(0, 0); can not assign
 
         System.out.println("circle: x= " + circle.getX() + ", y= " + circle.getY());
     }
