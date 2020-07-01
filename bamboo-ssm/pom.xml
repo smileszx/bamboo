@@ -30,7 +30,7 @@
         <commons-fileupload.version>1.3.1</commons-fileupload.version>
         <zookeeper.version>3.5.5</zookeeper.version>
         <zkclient.version>0.11</zkclient.version>
-        <quartz.version>2.2.2</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <guava.version>28.0-jre</guava.version>
         <dubbo.version>2.6.7</dubbo.version>
         <kafka.version>2.3.0</kafka.version>
