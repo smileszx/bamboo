@@ -24,7 +24,7 @@
         <jstl.version>1.2</jstl.version>
         <servlet-api.version>3.1.0</servlet-api.version>
         <xstream.version>1.4.10</xstream.version>
-        <jackson-databind.version>2.9.9.2</jackson-databind.version>
+        <jackson-databind.version>2.12.6.1</jackson-databind.version>
         <junit.version>4.12</junit.version>
         <json-path.version>2.2.0</json-path.version>
         <commons-fileupload.version>1.3.1</commons-fileupload.version>
